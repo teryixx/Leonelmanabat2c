@@ -2,7 +2,7 @@ package manabatleonel;
 
 import java.util.Scanner;
 
-public class Act2 {
+public class Act3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,12 +11,12 @@ public class Act2 {
         System.out.println("Enter a number:");
         number = sc.nextInt();
 
-        if (number == 0) {
-            System.out.println("Inputted number is 0.");
-        } else if (number % 2 == 0) {
-            System.out.println("Inputted number is even.");
+        if (number > 0) {
+            System.out.println("Inputted number is positive.");
+        } else if (number < 0) {
+            System.out.println("Inputted number is negative.");
         } else {
-            System.out.println("Inputted number is odd.");
+            System.out.println("Inputted number is 0.");
         }
 
     }
