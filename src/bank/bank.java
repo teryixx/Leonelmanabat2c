@@ -11,7 +11,7 @@ public class Bank{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Bank bank = new Bank();
+        Bank bank = new Bank();
 
         System.out.println("HELLO WELCOME TO BANKING SYSTEM");
         System.out.println("What can I do for you today?");
